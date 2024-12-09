@@ -1,0 +1,128 @@
+section .contact-wrapper.flex {
+  gap: 2.6rem;
+  align-items: start;
+}
+
+/* ===================================
+   left section
+=================================== */
+
+.contact-header .icon-envelope.icon-envelope {
+  color: var(--subtitle);
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.contact-header .contactTitle {
+  font-size: 2.1rem;
+  color: var(--title);
+  margin-bottom: 1rem;
+}
+
+.contact-header .sub-title {
+  color: var(--subtitle);
+  margin-bottom: 2rem;
+  line-height: 1.65rem;
+  width: 40%;
+}
+
+.contact-header label {
+  color: var(--subtitle);
+}
+
+.contact-header #name,
+.contact-header #email,
+.contact-header #message {
+  all: unset;
+  background-color: rgba(63, 63, 70, 0.15);
+  border: 1px solid rgba(63, 63, 70);
+  width: 16rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.light .contact-header #name,
+.light .contact-header #email,
+.light .contact-header #message {
+  background-color: rgba(255, 255, 255, 0.162);
+  border: 1px solid rgba(128, 128, 128, 0.451);
+  box-shadow: 1px 1px 1px rgba(73, 73, 75, 0.105);
+  color: #232324;
+}
+
+.contact-header #message {
+  min-height: 16rem;
+  resize: vertical;
+}
+
+.contact-header #name,
+.contact-header #email {
+  padding: 0.7rem 1rem;
+}
+
+.contact-header #name:focus,
+.contact-header #email:focus,
+.contact-header #message:focus {
+  border: 0.8px solid var(--peach);
+}
+
+input[type="submit"] {
+  background-color: rgba(63, 63, 70, 0.15);
+  border: 1px solid rgba(63, 63, 70);
+  color: var(--subtitle);
+  border-radius: 20px;
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+  cursor: pointer;
+  margin: 1rem;
+  margin-left: auto;
+}
+
+.light input[type="submit"] {
+  background-color: transparent;
+  background-color: rgba(245, 210, 183, 0.162);
+  border: 1px solid rgba(128, 128, 128, 0.451);
+  box-shadow: 1px 1px 1px rgba(73, 73, 75, 0.105);
+}
+input[type="submit"]:hover {
+  transform: scale(1.05);
+  box-shadow: 0 1px 1px var(--peach);
+}
+
+input[type="submit"]:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 2px var(--peach);
+}
+
+/* ===================================
+   Right section animation
+=================================== */
+
+/* ===================================
+   Responsive Design (Media query)
+=================================== */
+@media (max-width: 600px) {
+  .contact-animation {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-header form {
+    flex-direction: column;
+  }
+
+  .contact-header form div.flex {
+    flex-direction: column;
+    align-items: start;
+  }
+  .contact-header .animation {
+    display: none;
+  }
+
+  input[type="submit"] {
+    width: 18rem;
+  }
+}

@@ -1,0 +1,72 @@
+.hero-wrapper {
+  margin-top: 3rem;
+}
+
+/* =================================
+    1.left section  
+================================= */
+.left-section {
+  flex-grow: 1;
+}
+
+section.hero-wrapper .parent-avatar.flex {
+  align-items: end;
+}
+section.hero-wrapper .avatar {
+  width: 150px;
+  border: 3px solid var(--peach);
+  border-radius: 50%;
+
+  box-shadow: 2px 2px 40px var(--peach) inset;
+}
+
+section.hero-wrapper .icon-verified {
+  color: var(--blue);
+  font-size: 1.1rem;
+  margin-bottom: 1.3rem;
+}
+
+section.hero-wrapper h1.title {
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px;
+  color: var(--title);
+}
+
+section.hero-wrapper p.sub-title {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  line-height: 1.66rem;
+  margin-bottom: 32px;
+  padding-left: 30px;
+}
+
+section.hero-wrapper .all-icons {
+  font-size: 1.2rem;
+  gap: 1.5rem;
+  color: var(--subtitle);
+  padding-left: 30px;
+  transition: 0.3s;
+}
+
+section.hero-wrapper .icon:hover {
+  color: var(--peach);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+/* =================================
+    2.right section  
+================================= */
+
+.hero-animation {
+  width: 30rem;
+  margin-top: 10rem;
+}
+
+@media (max-width: 600px) {
+  .hero-animation {
+    display: none;
+    width: 20rem;
+  }
+}
