@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import "./hero.css";
+import "./Hero.css";
 import Lottie from "lottie-react";
 import DeveloperAnimationRed from "/public/Animation/DeveloperAnimationRed.json";
 import { useRef } from "react";
