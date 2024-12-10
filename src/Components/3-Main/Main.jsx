@@ -127,7 +127,9 @@ function Main() {
                 <p className="sub-title">{item.subTitle}</p>
                 <div className="flex icons">
                   <div style={{ gap: "11px" }} className="flex">
-                    <div className="icon-link1"></div>
+                    <div>
+                      <a className="icon-link1" href={item.vercelLink}></a>
+                    </div>
                     <div>
                       <a
                         className="icon-github-square"
