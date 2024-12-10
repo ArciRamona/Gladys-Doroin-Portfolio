@@ -40,18 +40,27 @@ export const myProjects = [
     subTitle: [
       "Powerful E-commerce Project using React, Redux Toolkit, Node.js, Express, MongoDB, Stripe from DEV to DEPLOYMENT",
     ],
+    vercelLink: "https://eco-mmerce-store.vercel.app/",
   },
 
   {
     projectTitle: "Adobe Photoshop Design Project",
     category: ["ps"],
     imgPath: "/PhotoManipulationOrange&Fish-3.png",
+    subTitle:
+      "Unleashing Visual Fantasies: A Photoshop Photo Manipulation Journey",
+    vercelLink:
+      "https://www.facebook.com/media/set/?set=a.122094037844630732&type=3",
   },
 
   {
     projectTitle: "Adobe Illustration Design Project",
     category: ["Ai"],
     imgPath: "/Poster-Design-1.png",
+    subTitle:
+      "Illustrated Impact: Eye-Catching Posters with Artistic Poster Creations in Illustration",
+    vercelLink:
+      "https://www.facebook.com/media/set/?set=a.122097747002630732&type=3",
   },
 
   // {
