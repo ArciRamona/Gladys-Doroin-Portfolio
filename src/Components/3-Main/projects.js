@@ -5,7 +5,7 @@ export const myProjects = [
     imgPath: "",
     gitHubUrl: "",
     subTitle: [
-      "(This a ongoing project). A Powerful E-commerce Project using React, Redux Toolkit, Node.js, Express, MongoDB, Stripe from DEV to DEPLOYMENT",
+      "(This is a ongoing project). A Powerful E-commerce Project using React, Redux Toolkit, Node.js, Express, MongoDB, Stripe from DEV to DEPLOYMENT",
     ],
   },
 
