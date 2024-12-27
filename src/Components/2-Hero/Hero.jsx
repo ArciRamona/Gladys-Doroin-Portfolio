@@ -35,7 +35,8 @@ const hero = () => {
             transition={{ duration: 3, type: "spring" }}
             className="title"
           >
-            MERN Full-Stack Developer. Designer. Brand Creator.
+            Software Engineer. MERN Full-Stack Developer. Designer. Brand
+            Creator.
           </motion.h1>
           <motion.p
             id="About"
