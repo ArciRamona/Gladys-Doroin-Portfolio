@@ -54,10 +54,9 @@ const hero = () => {
             technical sides of web development, I excel at building
             user-friendly, responsive websites that drive business growth. My
             expertise spans from brand development and web design to full-stack
-            e-commerce solutions, ensuring that every project I work on is both
-            visually compelling and functionally robust. Whether you need a
-            stunning website or a scalable online store, I’m here to bring your
-            vision to life.
+            e-commerce solutions, ensuring every project is visually appealing
+            and highly functional. Whether you need a stunning website or a
+            scalable online store, I’m here to bring your vision to life.
           </motion.p>
         </div>
         <motion.div
