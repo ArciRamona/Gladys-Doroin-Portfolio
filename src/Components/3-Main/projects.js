@@ -44,6 +44,17 @@ export const myProjects = [
   },
 
   {
+    projectTitle: "My React Porfolio Project Resource Code",
+    category: ["js", "react", "css"],
+    imgPath: "../../../public/MyReactPortfolioResourceCode.jpg",
+    gitHubUrl: "https://github.com/ArciRamona/Gladys-Doroin-Portfolio.git",
+    subTitle: [
+      "Crafting Modern Web Experiences with React, JavaScript, HTML, and CSS through this portfolio project",
+    ],
+    vercelLink: "https://gladys-doroin-portfolio.vercel.app/",
+  },
+
+  {
     projectTitle: "Adobe Photoshop Design Project",
     category: ["ps"],
     imgPath: "/PhotoManipulationOrange&Fish-3.png",
