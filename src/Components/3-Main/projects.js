@@ -46,7 +46,7 @@ export const myProjects = [
   {
     projectTitle: "My React Porfolio Project Resource Code",
     category: ["js", "react", "css"],
-    imgPath: "../../../public/MyReactPortfolioResourceCode.jpg",
+    imgPath: "/MyReactPortfolioResourceCode.jpg",
     gitHubUrl: "https://github.com/ArciRamona/Gladys-Doroin-Portfolio.git",
     subTitle: [
       "Crafting Modern Web Experiences with React, JavaScript, HTML, and CSS through this portfolio project",
