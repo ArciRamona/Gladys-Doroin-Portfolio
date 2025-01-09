@@ -39,6 +39,7 @@ section.hero-wrapper p.sub-title {
   line-height: 1.66rem;
   margin-bottom: 32px;
   padding-left: 30px;
+  max-width: 73%;
 }
 
 section.hero-wrapper .all-icons {

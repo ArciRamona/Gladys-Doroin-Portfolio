@@ -107,6 +107,9 @@ input[type="submit"]:active {
   .contact-animation {
     display: none;
   }
+  .contact-header .sub-title {
+    width: 70%;
+  }
 }
 
 @media (max-width: 600px) {
