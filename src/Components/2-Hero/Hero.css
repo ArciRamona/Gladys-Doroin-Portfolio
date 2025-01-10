@@ -31,6 +31,7 @@ section.hero-wrapper h1.title {
   line-height: 3.3rem;
   margin: 24px;
   color: var(--title);
+  max-width: 75%;
 }
 
 section.hero-wrapper p.sub-title {
@@ -39,7 +40,11 @@ section.hero-wrapper p.sub-title {
   line-height: 1.66rem;
   margin-bottom: 32px;
   padding-left: 30px;
-  max-width: 73%;
+  max-width: 75%;
+}
+
+section.hero-wrapper p.sub-title span {
+  color: violet;
 }
 
 section.hero-wrapper .all-icons {
@@ -61,7 +66,7 @@ section.hero-wrapper .icon:hover {
 ================================= */
 
 .hero-animation {
-  width: 30rem;
+  width: 33rem;
   margin-top: 10rem;
 }
 

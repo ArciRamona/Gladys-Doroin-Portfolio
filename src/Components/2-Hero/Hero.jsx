@@ -2,7 +2,7 @@
 import React from "react";
 import "./Hero.css";
 import Lottie from "lottie-react";
-import DeveloperAnimationRed from "/public/Animation/DeveloperAnimationRed.json";
+import Animation from "/public/Animation/Animation - 1736463504875.json";
 import { useRef } from "react";
 import { motion } from "framer-motion";
 
@@ -35,8 +35,8 @@ const hero = () => {
             transition={{ duration: 3, type: "spring" }}
             className="title"
           >
-            Software Engineer. MERN Full-Stack Developer. Designer. Brand
-            Creator.
+            Software Engineer. Data Scientist. MERN Full-Stack Developer. Brand
+            Creator
           </motion.h1>
           <motion.p
             id="About"
@@ -48,15 +48,23 @@ const hero = () => {
             }}
             className="sub-title"
           >
-            Hello! I’m Gladys, a dedicated Computer Science student, graphic
-            designer, and software developer specializing in e-commerce
-            websites. With a strong foundation in both the creative and
-            technical sides of web development, I excel at building
-            user-friendly, responsive websites that drive business growth. My
-            expertise spans from brand development and web design to full-stack
-            e-commerce solutions, ensuring every project is visually appealing
-            and highly functional. Whether you need a stunning website or a
-            scalable online store, I’m here to bring your vision to life.
+            Hello! I’m an enthusiastic Computer Science student passionate about
+            blending creativity, technology, and data to craft impactful
+            solutions. As a budding{" "}
+            <span className="highlights"> Software Engineer</span>,{" "}
+            <span className="highlights">MERN Full-Stack Developer</span>, and{" "}
+            <span className="highlights">Data Scientist</span>, I thrive on
+            designing intuitive and intelligent systems that solve real-world
+            problems.
+            <br /> <br /> I also bring a creative edge as a{" "}
+            <span className="highlights">Brand Creator</span> , combining
+            technical expertise with design sensibilities to build visually
+            compelling and user-friendly digital experiences.
+            <br /> <br />
+            Currently, I’m honing my skills in web development and data science,
+            with a focus on integrating machine learning into full-stack
+            applications. I’m always eager to learn, explore emerging
+            technologies, and contribute to projects that make a difference.
           </motion.p>
         </div>
         <motion.div
@@ -124,7 +132,7 @@ const hero = () => {
             // https://Lottiereact.com
             lottieRef.currentsetSpeed(5);
           }}
-          animationData={DeveloperAnimationRed}
+          animationData={Animation}
         />
       </motion.div>
     </section>

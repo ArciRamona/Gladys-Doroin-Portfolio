@@ -23,7 +23,7 @@ section .contact-wrapper.flex {
   color: var(--subtitle);
   margin-bottom: 2rem;
   line-height: 1.65rem;
-  width: 40%;
+  width: 38rem;
 }
 
 .contact-header label {
@@ -36,7 +36,7 @@ section .contact-wrapper.flex {
   all: unset;
   background-color: rgba(63, 63, 70, 0.15);
   border: 1px solid rgba(63, 63, 70);
-  width: 16rem;
+  width: 35rem;
   padding: 0.5rem 1rem;
   border-radius: 20px;
 }
@@ -108,7 +108,12 @@ input[type="submit"]:active {
     display: none;
   }
   .contact-header .sub-title {
-    width: 70%;
+    width: 15rem;
+  }
+  .contact-header #name,
+  .contact-header #email,
+  .contact-header #message {
+    width: 15rem;
   }
 }
 
