@@ -138,7 +138,7 @@ function Main() {
                     </div>
                   </div>
 
-                  <div>
+                  {/* <div>
                     <a
                       style={{ gap: "3px" }}
                       className="flex link"
@@ -150,7 +150,7 @@ function Main() {
                         className="flex icon-arrow-right"
                       ></span>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </motion.article>
