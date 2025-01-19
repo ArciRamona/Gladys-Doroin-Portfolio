@@ -3,7 +3,7 @@ import React from "react";
 import "./Contact.css";
 import { motion } from "framer-motion";
 import Lottie from "lottie-react";
-import emailAnimation from "/public/Animation/VioletEmailAnimation - 1736466881610.json";
+import emailAnimation from "../../Animation/VioletEmailAnimation - 1736466881610.json";
 
 const Contact = () => {
   return (

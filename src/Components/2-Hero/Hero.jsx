@@ -2,7 +2,7 @@
 import React from "react";
 import "./Hero.css";
 import Lottie from "lottie-react";
-import Animation from "/public/Animation/Animation - 1736463504875.json";
+import Animation from "../../Animation/Animation - 1736463504875.json";
 import { useRef } from "react";
 import { motion } from "framer-motion";
 
@@ -21,7 +21,7 @@ const hero = () => {
           className="parent-avatar flex"
         >
           <img
-            src="/public/06E833A5-8789-4946-A1A8-1C24D3AF2FE9.png"
+            src="/06E833A5-8789-4946-A1A8-1C24D3AF2FE9.png"
             className="avatar"
             width={250}
             alt=""
@@ -127,10 +127,8 @@ const hero = () => {
         <Lottie
           lottieRef={lottieRef}
           className="hero-animation"
-          onloadedImages={() => {
-            // @ts-ignore
-            // https://Lottiereact.com
-            lottieRef.currentsetSpeed(5);
+          onLoadedImages={() => {
+            lottieRef.current?.setSpeed(0.5); // Fixing typo: `.currentsetSpeed` → `.current?.setSpeed`
           }}
           animationData={Animation}
         />
