@@ -21,7 +21,7 @@ const hero = () => {
           className="parent-avatar flex"
         >
           <img
-            src="/public/Enhance-ID_7141.jpg"
+            src="../../../public/Enhance-ID_7141.jpg"
             className="avatar"
             width={250}
             alt=""
