@@ -71,7 +71,7 @@ input[type="submit"] {
   border: 1px solid rgba(63, 63, 70);
   color: var(--subtitle);
   border-radius: 20px;
-  width: 6rem;
+  width: 5rem;
   height: 2.5rem;
   font-size: 1rem;
   transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
@@ -82,7 +82,7 @@ input[type="submit"] {
 
 .light input[type="submit"] {
   background-color: transparent;
-  background-color: rgba(245, 210, 183, 0.162);
+  background-color: rgba(33, 35, 33, 0.162);
   border: 1px solid rgba(128, 128, 128, 0.451);
   box-shadow: 1px 1px 1px rgba(73, 73, 75, 0.105);
 }
@@ -140,5 +140,31 @@ input[type="submit"]:active {
   input[type="submit"] {
     width: 30rem;
     align-self: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .contact-header form {
+    flex-direction: column;
+  }
+
+  .contact-header form div.flex {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  input[type="submit"] {
+    width: 23rem;
+    align-self: center;
+  }
+  .contact-header .sub-title {
+    width: 26rem;
+    max-width: 40ch;
+  }
+  .contact-header #name,
+  .contact-header #email,
+  .contact-header #message {
+    width: 23rem;
+    font-size: 1rem;
   }
 }
