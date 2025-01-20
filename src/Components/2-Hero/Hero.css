@@ -14,10 +14,10 @@ section.hero-wrapper .parent-avatar.flex {
 }
 section.hero-wrapper .avatar {
   width: 150px;
-  border: 3px solid var(--peach);
+  border: 2px solid var(--peach);
   border-radius: 50%;
 
-  box-shadow: 2px 2px 40px var(--peach) inset;
+  /* box-shadow: 2px 2px 40px var(--peach) inset; */
 }
 
 section.hero-wrapper .icon-verified {
@@ -25,13 +25,20 @@ section.hero-wrapper .icon-verified {
   font-size: 1.1rem;
   margin-bottom: 1.3rem;
 }
+section.hero-wrapper {
+  padding: 2rem;
+  width: 90rem;
+  border: 2px solid var(--border);
+
+  box-shadow: 2px 2px 20px var(--border);
+}
 
 section.hero-wrapper h1.title {
   font-size: 2.85rem;
   line-height: 3.3rem;
   margin: 24px;
   color: var(--title);
-  max-width: 75%;
+  max-width: 83%;
 }
 
 section.hero-wrapper p.sub-title {
@@ -40,7 +47,7 @@ section.hero-wrapper p.sub-title {
   line-height: 1.66rem;
   margin-bottom: 32px;
   padding-left: 30px;
-  max-width: 75%;
+  max-width: 80%;
 }
 
 section.hero-wrapper p.sub-title span {
@@ -72,7 +79,16 @@ section.hero-wrapper .icon:hover {
 
 @media (max-width: 600px) {
   .hero-animation {
-    display: none;
-    width: 20rem;
+    width: 21.5rem;
+    margin-top: 100rem;
+    margin-left: -20.7rem;
+  }
+  section.hero-wrapper {
+    padding-top: 2rem;
+    width: 75%;
+  }
+
+  section.hero-wrapper .heroBox {
+    margin-top: -20rem;
   }
 }
