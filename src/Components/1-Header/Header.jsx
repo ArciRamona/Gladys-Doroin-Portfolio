@@ -32,7 +32,7 @@ function Header() {
       <nav>
         <ul className="flex ">
           <li className="menu-bar">
-            <a href="../../../NavPages/AboutMe/AboutMe.html">About</a>
+            <a href="/AboutMe.html">About</a>
           </li>
           {/* <li className="menu-bar">
             <a href="">Articles</a>
@@ -91,17 +91,20 @@ function Header() {
                 About
               </a>
             </li>
-            <li className="menu-nav">
-              <a href=""></a>Article
+            <li>
+              <a className="menu-nav" href="#Projects">
+                Project
+              </a>
             </li>
-            <li className="menu-nav">
-              <a href=""></a>Projects
+            <li>
+              <a className="menu-nav" href="#Contact">
+                Contact
+              </a>
             </li>
-            <li className="menu-nav">
-              <a href=""></a>Speaking
-            </li>
-            <li className="menu-nav">
-              <a href=""></a>Uses
+            <li>
+              <a className="menu-nav" href={CV}>
+                CV
+              </a>
             </li>
           </ul>
         </div>
