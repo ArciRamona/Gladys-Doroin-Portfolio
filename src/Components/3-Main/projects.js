@@ -38,7 +38,7 @@ export const myProjects = [
     imgPath: "/Eco-mmerceMDS.jpg",
     gitHubUrl: "https://github.com/ArciRamona/Eco-mmerce-store.git",
     subTitle: [
-      "Powerful E-commerce Project using React, Redux Toolkit, Node.js, Express, MongoDB, Stripe from DEV to DEPLOYMENT",
+      "Medical Supplier Website Project using React, Redux Toolkit, Node.js, Express, MongoDB.(Ongoing Backend Development)",
     ],
     vercelLink: "https://eco-mmerce-store.vercel.app/",
   },
