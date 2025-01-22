@@ -49,24 +49,32 @@ const hero = () => {
               }}
               className="sub-title"
             >
-              Hello! I’m an enthusiastic Computer Science student passionate
-              about blending creativity, technology, and data to craft impactful
-              solutions. As a budding{" "}
-              <span className="highlights"> Software Engineer</span>,{" "}
-              <span className="highlights">MERN Full-Stack Developer</span>, and{" "}
-              <span className="highlights">Data Scientist</span>, I thrive on
-              designing intuitive and intelligent systems that solve real-world
-              problems.
-              <br /> <br /> I also bring a creative edge as a{" "}
-              <span className="highlights">Brand Creator</span> , combining
-              technical expertise with design sensibilities to build visually
-              compelling and user-friendly digital experiences.
-              <br /> <br />
-              Currently, I’m honing my skills in web development and data
-              science, with a focus on integrating machine learning into
-              full-stack applications. I’m always eager to learn, explore
-              emerging technologies, and contribute to projects that make a
-              difference.
+              Hello! I’m a passionate Computer Science student with a knack for
+              problem-solving and a love for creating impactful digital
+              solutions. My expertise spans{" "}
+              <span className="AboutHighlights">JavaScript</span> ,{" "}
+              <span className="AboutHighlights">MERN stack development</span>,
+              and <span className="AboutHighlights">Data Science</span>, with a
+              specialization in{" "}
+              <span className="AboutHighlights">E-commerce platforms</span>. I
+              thrive on blending technology and innovation to build
+              user-friendly applications that deliver seamless online
+              experiences. <br /> <br /> Beyond development, I bring a creative
+              edge as a <span className="AboutHighlights">Brand Creator</span>,
+              leveraging my background in graphic design to craft visually
+              engaging and cohesive brand identities. My unique combination of
+              technical and artistic skills allows me to approach projects
+              holistically, ensuring both functionality and aesthetics are at
+              the forefront. <br />
+              <br />
+              I’m currently honing my skills in{" "}
+              <span className="AboutHighlights">Web development</span> and{" "}
+              <span className="AboutHighlights">Machine Learning</span>,
+              focusing on integrating{" "}
+              <span className="AboutHighlights">AI-driven Features</span> into
+              e-commerce solutions. Whether it’s designing a responsive website,
+              analyzing data for actionable insights, or crafting a compelling
+              brand identity, I’m committed to excellence and continuous growth.
             </motion.p>
           </div>
           <motion.div
