@@ -114,7 +114,10 @@ header .fixed {
 /* ===================================
     filter blur
 =================================== */
-backdrop-filter: blur(8px);
+.fixed {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
 
 @keyframes mymove {
   0% {

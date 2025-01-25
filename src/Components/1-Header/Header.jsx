@@ -2,7 +2,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./Header.css";
-import CV from "../../assets/CV/Gladys Doroin Resume.pdf";
+import CV from "../../assets/CV/Gladys Doroin Resume (1).pdf";
 
 function Header() {
   const [showModel, setshowModel] = useState(false);

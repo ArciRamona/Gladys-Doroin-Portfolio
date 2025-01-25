@@ -36,8 +36,8 @@ const hero = () => {
               transition={{ duration: 3, type: "spring" }}
               className="title"
             >
-              Software Engineer. Data Scientist. MERN Full-Stack Developer.
-              Brand Creator
+              Aspiring Software Engineer | MERN Stack Developer | Data Science
+              Enthusiast with a Passion for E-Commerce and Creative Design
             </motion.h1>
             <motion.p
               id="About"
