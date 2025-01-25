@@ -36,8 +36,11 @@ const hero = () => {
               transition={{ duration: 3, type: "spring" }}
               className="title"
             >
-              Aspiring Software Engineer | MERN Stack Developer | Data Science
-              Enthusiast with a Passion for E-Commerce and Creative Design
+              Aspiring Software Engineer. MERN Stack Developer. Data Science{" "}
+              <br />
+              <span className="subTitle">
+                Enthusiast with a Passion for E-Commerce and Creative Design{" "}
+              </span>
             </motion.h1>
             <motion.p
               id="About"
@@ -47,7 +50,7 @@ const hero = () => {
                 duration: 3,
                 type: "spring",
               }}
-              className="sub-title"
+              className="about"
             >
               Hello! I’m a passionate Computer Science student with a knack for
               problem-solving and a love for creating impactful digital
