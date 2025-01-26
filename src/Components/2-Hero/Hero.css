@@ -28,7 +28,7 @@ section.hero-wrapper .icon-verified {
 section.hero-wrapper {
   padding: 2rem;
   width: 90rem;
-  border: 2px solid var(--border);
+  border: 1px solid var(--border);
 
   box-shadow: 2px 2px 20px var(--border);
 
