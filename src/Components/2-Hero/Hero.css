@@ -214,6 +214,96 @@ section.hero-wrapper .icon:hover {
   }
 }
 
+@media (max-width: 624px) {
+  section.hero-wrapper {
+    padding-top: 2rem;
+    width: 90%;
+
+    .hero-animation {
+      width: 35rem;
+      margin-top: 60rem;
+      margin-left: -36.7rem;
+    }
+
+    .heroBox {
+      margin-top: -29rem;
+    }
+  }
+  section.hero-wrapper h1.title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    width: 32.6rem;
+  }
+  section.hero-wrapper .subTitle {
+    font-size: 2rem;
+    line-height: 1rem;
+  }
+  section.hero-wrapper p.about {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    width: 31rem;
+  }
+@media (max-width: 430px) {
+  section.hero-wrapper {
+    padding-top: 2rem;
+    width: 83%;
+
+    .hero-animation {
+      width: 22rem;
+      margin-top: 90rem;
+      margin-left: -22.7rem;
+    }
+
+    .heroBox {
+      margin-top: -18rem;
+    }
+  }
+  section.hero-wrapper h1.title {
+    font-size: 2.7rem;
+    line-height: 3rem;
+    width: 17rem;
+  }
+  section.hero-wrapper .subTitle {
+    font-size: 2rem;
+    line-height: 1rem;
+  }
+  section.hero-wrapper p.about {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    width: 15rem;
+  }
+}
+@media (max-width: 440px) {
+  section.hero-wrapper {
+    padding-top: 2rem;
+    width: 84%;
+
+    .hero-animation {
+      width: 22rem;
+      margin-top: 90rem;
+      margin-left: -22.7rem;
+    }
+
+    .heroBox {
+      margin-top: -18rem;
+    }
+  }
+  section.hero-wrapper h1.title {
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 22rem;
+  }
+  section.hero-wrapper .subTitle {
+    font-size: 2rem;
+    line-height: 1rem;
+  }
+  section.hero-wrapper p.about {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    width: 18rem;
+  }
+}
+
 @media (max-width: 430px) {
   section.hero-wrapper {
     padding-top: 2rem;

@@ -180,6 +180,32 @@ input[type="submit"]:active {
   }
 }
 
+@media (max-width: 440px) {
+  .contact-header form {
+    flex-direction: column;
+  }
+
+  .contact-header form div.flex {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  input[type="submit"] {
+    width: 23rem;
+    align-self: center;
+  }
+  .contact-header .sub-title {
+    width: 26rem;
+    max-width: 40ch;
+  }
+  .contact-header #name,
+  .contact-header #email,
+  .contact-header #message {
+    width: 23rem;
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 430px) {
   .contact-header form {
     flex-direction: column;
