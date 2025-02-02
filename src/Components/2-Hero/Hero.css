@@ -243,6 +243,7 @@ section.hero-wrapper .icon:hover {
     line-height: 1.3rem;
     width: 31rem;
   }
+}
 @media (max-width: 430px) {
   section.hero-wrapper {
     padding-top: 2rem;
